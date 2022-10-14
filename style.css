@@ -11,6 +11,7 @@
   --link: hsl(228, 45%, 44%);
 
   /* Typography */
+  --primary-font-family: 'Outfit', sans-serif;
   --paragraph: 1.5rem;
 }
 
@@ -28,6 +29,7 @@ html {
 }
 
 body {
+  font-family: var(--primary-font-family);
   font-size: 1.6rem;
 }
 
