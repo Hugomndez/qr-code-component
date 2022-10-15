@@ -43,13 +43,14 @@ img {
   block-size: auto;
   border-radius: 10px;
 }
-.container {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   width: 325px;
   height: 520px;
+  margin: 20px;
   padding: 15px;
   border-radius: 15px;
   background-color: var(--white);
@@ -60,7 +61,8 @@ img {
   text-align: center;
 }
 
-.content h2 {
+.content h1 {
+  font-size: 2.3rem;
   margin-bottom: 15px;
   color: var(--dark-blue);
 }
